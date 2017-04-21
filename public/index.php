@@ -21,3 +21,7 @@ require __DIR__ . '/../thinkphp/start.php';
 
 // 绑定当前访问到console模块
 //define('BIND_MODULE','console/index/index');
+
+// 定义配置文件目录和应用目录同级
+//define('CONF_PATH', __DIR__.'/../config/');
+
