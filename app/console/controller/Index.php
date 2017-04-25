@@ -1,13 +1,14 @@
 <?php
 namespace app\Console\controller;
-use think\Controller;
-class Index extends Controller
+use think\Loader;
+class Index
 {
+    /**
+     *  后台主页
+     */
     public function index()
     {
-//        $index = new Index();
-//        return $index->fetch();
-        return $this->fetch('index');
-
+//        $this->assign()
+        return view();
     }
 }
