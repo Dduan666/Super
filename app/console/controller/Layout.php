@@ -1,6 +1,6 @@
 <?php
-namespace app\Console\controller;
-use think\Controller;
+namespace app\console\controller;
+use think\controller;
 class Layout extends Controller
 {
     public function index_layout()

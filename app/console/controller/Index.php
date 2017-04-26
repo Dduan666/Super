@@ -1,5 +1,5 @@
 <?php
-namespace app\Console\controller;
+namespace app\console\controller;
 use think\Loader;
 class Index
 {
@@ -8,7 +8,7 @@ class Index
      */
     public function index()
     {
-//        $this->assign()
+//        $this->assign();
         return view();
     }
 }

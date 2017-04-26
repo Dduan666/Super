@@ -22,6 +22,7 @@
                        placeholder="Username"
                        title="请输入4位以上的字符"
                        pattern="^/S{4,}$"
+                       value="{$name}"
                        />
             </div>
             <div class="form-group">
@@ -37,7 +38,7 @@
                        class="form-control"
                        placeholder="Code"
                        required="" />
-                <img src="{:captcha_img()}" alt="code" class="form-control">
+                <img src="" alt="code" class="form-control">
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-default" value="Submit" />
